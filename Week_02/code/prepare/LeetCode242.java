@@ -4,6 +4,10 @@ import org.junit.Test;
 
 import java.util.HashMap;
 
+/**
+ * 有效的字母异位词
+ * https://leetcode-cn.com/problems/valid-anagram/
+ */
 public class LeetCode242 {
     @Test
     public void name() {
