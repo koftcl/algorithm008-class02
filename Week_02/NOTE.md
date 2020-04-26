@@ -157,3 +157,32 @@ public class HeapSort
     }
 }
 ```
+
+# 图
+1. 定义 Graph(V, E)
+    1. 点 Vertices
+        1. 度 - 入度 和 出度 （有向才分出入度）
+        2. 点与点之间： 连通与否
+    2. 边 Edge
+        1. 有向和无向（单行线）
+        2. 权重（边长）
+2. 数据结构
+    1. 邻接矩阵
+    2. 邻接表
+3. 分类
+    1. 向 和 权
+        1. 有向有权图
+        2. 有向无权图
+        3. 无向有权图
+        4. 无向无权图
+4. 图的遍历
+    1. dfs
+    2. bfs
+    3. 注，需要加visited集合避免环路
+5. 相关知识
+    1. 拓扑排序
+        1. [https://zhuanlan.zhihu.com/p/34871092](https://zhuanlan.zhihu.com/p/34871092)
+    2. 最短路径
+        1. [https://www.bilibili.com/video/av25829980?from=search&seid=13391343514095937158](https://www.bilibili.com/video/av25829980?from=search&seid=13391343514095937158)
+    3. 最小生成树
+        1. [https://www.bilibili.com/video/av84820276?from=search&seid=17476598104352152051](https://www.bilibili.com/video/av84820276?from=search&seid=17476598104352152051)
