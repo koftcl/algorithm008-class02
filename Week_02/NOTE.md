@@ -81,7 +81,7 @@
         3. 堆化
 3. 时间复杂度： O(NlogN)
 
-```java
+```
 // Java program for implementation of Heap Sort
 public class HeapSort
 {
