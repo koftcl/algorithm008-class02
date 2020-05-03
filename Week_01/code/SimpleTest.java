@@ -10,8 +10,6 @@ public class SimpleTest {
 
     @Test
     public void test2() {
-        Stream.of(1, 2, 3, 4, 5)
-                .map(e -> e == 1 ? 1 : 0)
-                .forEach(System.out::println);
+        Integer[] array = Stream.of(1, 2, 3, 4, 5).toArray(Integer[]::new);
     }
 }
